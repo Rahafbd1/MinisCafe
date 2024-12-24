@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/productPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/confirmOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/backMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

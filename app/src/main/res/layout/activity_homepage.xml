@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Homepage">
+
+
+    <TextView
+        android:id="@+id/WelcomeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Minis Cafe"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#F2899A"
+        android:textColorHint="#F2899A"/>
+
+    <Button
+        android:id="@+id/Menu2"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="View Menu"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+
+    <Button
+        android:id="@+id/Admin1"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Admin"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <Button
+        android:id="@+id/LogOut3"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Log Out"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+
+</LinearLayout>

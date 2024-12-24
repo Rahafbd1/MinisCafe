@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "843223478604",
+    "project_id": "miniscafe-6e41d",
+    "storage_bucket": "miniscafe-6e41d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843223478604:android:f7691108c855c13d141fe9",
+        "android_client_info": {
+          "package_name": "com.example.miniscafe1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAovY21chMI4qZ2qQaE9tlzpq4hC-VzGsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

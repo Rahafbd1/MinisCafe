@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Item Page"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/ItemName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/round_border"
+        android:hint="Item Name" />
+
+    <EditText
+        android:id="@+id/ItemPrice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/round_border"
+        android:hint="Item Price" />
+
+    <Button
+        android:id="@+id/UpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Item"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Admin"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

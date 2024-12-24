@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="190dp" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:backgroundTint="#F2899A"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/span_hot"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hot Latte"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/SpanHot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order"
+                        android:backgroundTint="#F2899A"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/span_cold"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cold Spanish Latte"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/ColdSpan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order"
+                        android:backgroundTint="#F2899A"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/redvelvet"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Red Velvet Cake"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/RedCake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order"
+                        android:backgroundTint="#F2899A"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/brownies"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Brownies"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#333333"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/Bron"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order"
+                        android:backgroundTint="#F2899A"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+

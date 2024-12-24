@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Item Page"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/ItemName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/ItemPrice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Price"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/DeleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Item"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Admin"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_collapseParallaxMultiplier="12"
+    tools:context=".Login">
+
+
+
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="237dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textSize="22dp"
+        android:textColor="#F2899A"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_email_24"
+        android:drawableBottom="@drawable/round_border"
+        android:drawableTint="#F2899A"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#F2899A"
+        android:textColorHint="#F2899A" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_password_24"
+        android:drawableTint="#F2899A"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#F2899A"
+        android:textColorHint="#F2899A" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="252dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="LOGIN"
+        android:backgroundTint="#F2899A"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Don't have an account? Sign Up"
+        android:textColor="#F2899A"
+        android:textSize="16sp" />
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
